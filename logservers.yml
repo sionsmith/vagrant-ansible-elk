@@ -1,0 +1,12 @@
+---
+- hosts: all
+  roles:
+    - monit
+    - nginx
+    - java
+    - supervisor
+    - elasticsearch
+    - logstash-forwarder
+    - log-generator
+    - logstash
+    - kibana

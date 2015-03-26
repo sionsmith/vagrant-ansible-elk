@@ -1,0 +1,6 @@
+---
+- name: Restart supervisor
+  service:
+    name=supervisor
+    enabled=yes state=restarted
+  sudo: yes
